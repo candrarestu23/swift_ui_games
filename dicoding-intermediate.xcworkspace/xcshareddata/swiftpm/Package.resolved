@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "CTRating",
+        "repositoryURL": "https://github.com/StewartLynch/CTRating",
+        "state": {
+          "branch": null,
+          "revision": "858f77b580021dc895c6f988a0f0270ad08edb64",
+          "version": "1.0.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

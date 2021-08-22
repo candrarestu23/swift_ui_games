@@ -32,11 +32,6 @@ struct HomeDetailView: View {
         .onAppear(perform: {
             viewModel.getDetailGames(id: id)
         })
-        .alert(isPresented: $viewModel.showAlert) { () -> Alert in
-            Alert(title: Text("Save Data"),
-                  message: Text("Save Data to favorite success"),
-                  dismissButton: .default(Text("Dismiss")))
-        }
     }
 }
 
@@ -171,7 +166,6 @@ struct ScrollViewDetail: View {
                                            desc: data.description ?? "",
                                            tags: data.tags ?? [],
                                            genre: data.genres ?? [])
-                        viewModel.showAlert = true
                     }.padding([.leading, .trailing], 20)
                     .padding([.bottom, .top], 12)
                     .foregroundColor(.white)

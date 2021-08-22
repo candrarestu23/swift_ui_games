@@ -48,7 +48,7 @@ struct FavoriteView: View {
                         }
                     }.listStyle(PlainListStyle())
                 }
-            }.navigationBarTitle("Home")
+            }.navigationBarTitle("Favorite")
             .onAppear(perform: {
                 viewModel.getFavGames()
             })

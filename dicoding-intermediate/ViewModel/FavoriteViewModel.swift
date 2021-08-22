@@ -14,16 +14,14 @@ class FavoriteViewModel: ObservableObject {
     @Published var gameDetail: GameDetailModel?
     @Published var isLoading = false
     @Published var showAlert = false
-    func saveGames() {
-        
-    }
-    
+
     func getFavGames() {
         savedEntities.removeAll()
         savedEntities = CoreDataManager.shared.getAllGames()
         games.removeAll()
         let tempArray = Array(Set(savedEntities))
         for item in tempArray {
+            print(item.objectID)
             let tempGame = GameModel(gameId: Int(item.gameID),
                                      name: item.name!,
                                      released: item.released!,
@@ -88,7 +86,7 @@ class FavoriteViewModel: ObservableObject {
     }
     
     func searchGame(search: String) {
-        games = games.filter { $0.name?.lowercased().contains(search.lowercased()) ?? true}
+        games = games.filter { $0.name?.lowercased().contains(search.lowercased()) ?? true }
     }
     
     func getObjectID(_ gameID: Int16) -> NSManagedObjectID {

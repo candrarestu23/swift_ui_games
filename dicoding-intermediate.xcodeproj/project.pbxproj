@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		577B215226C7B7A800B82030 /* DicodingIntermediateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577B215126C7B7A800B82030 /* DicodingIntermediateApp.swift */; };
-		577B215426C7B7A800B82030 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577B215326C7B7A800B82030 /* ContentView.swift */; };
 		577B215626C7B7AB00B82030 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 577B215526C7B7AB00B82030 /* Assets.xcassets */; };
 		577B215926C7B7AB00B82030 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 577B215826C7B7AB00B82030 /* Preview Assets.xcassets */; };
 		577B216626C7BA3B00B82030 /* GameListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577B216526C7BA3B00B82030 /* GameListModel.swift */; };
@@ -23,9 +22,7 @@
 		577B218226C7DEAC00B82030 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577B218126C7DEAC00B82030 /* ErrorView.swift */; };
 		577B218426C7E04D00B82030 /* TypeAlias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577B218326C7E04D00B82030 /* TypeAlias.swift */; };
 		577B218826C7E14000B82030 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577B218726C7E14000B82030 /* HomeView.swift */; };
-		577B218B26C7FFA500B82030 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577B218A26C7FFA500B82030 /* UIColor+Ext.swift */; };
 		577B218F26C908FD00B82030 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577B218E26C908FD00B82030 /* TabBarView.swift */; };
-		577B219126C93A7F00B82030 /* TestListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577B219026C93A7F00B82030 /* TestListView.swift */; };
 		577B219326C99A1B00B82030 /* HomeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577B219226C99A1A00B82030 /* HomeDetailView.swift */; };
 		577B219526C99B8900B82030 /* GameDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577B219426C99B8900B82030 /* GameDetailModel.swift */; };
 		577B219726C9A24100B82030 /* SearchNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577B219626C9A24000B82030 /* SearchNavigation.swift */; };
@@ -37,13 +34,36 @@
 		57CF7B4826CEED90007B6676 /* NoDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CF7B4726CEED90007B6676 /* NoDataView.swift */; };
 		57CF7B4A26CEEF84007B6676 /* FavoriteDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CF7B4926CEEF84007B6676 /* FavoriteDetailView.swift */; };
 		57CF7B5226D03EF5007B6676 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CF7B5126D03EF4007B6676 /* ProfileView.swift */; };
+		57CF7B5426D186A1007B6676 /* Games-info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 57CF7B5326D186A1007B6676 /* Games-info.plist */; };
+		57CF7B5C26D26682007B6676 /* dicoding_intermediateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CF7B5B26D26682007B6676 /* dicoding_intermediateTests.swift */; };
+		57CF7B6526D26A17007B6676 /* MockService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CF7B6426D26A17007B6676 /* MockService.swift */; };
+		57CF7B6E26D279E4007B6676 /* GameDataMock.json in Resources */ = {isa = PBXBuildFile; fileRef = 57CF7B6D26D279E4007B6676 /* GameDataMock.json */; };
+		57CF7B7126D292B3007B6676 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CF7B7026D292B3007B6676 /* ProfileViewModel.swift */; };
+		57CF7B7326D294A7007B6676 /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CF7B7226D294A7007B6676 /* EditProfileView.swift */; };
+		57CF7B7B26D2BAEA007B6676 /* dicoding_intermediateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CF7B7A26D2BAEA007B6676 /* dicoding_intermediateUITests.swift */; };
 		5DEFE0DE5B8E7CEB91BCCBC1 /* Pods_dicoding_intermediate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C931D3F483F55FEB7FD800BA /* Pods_dicoding_intermediate.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57CF7B5E26D26682007B6676 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 577B214626C7B7A800B82030 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 577B214D26C7B7A800B82030;
+			remoteInfo = "dicoding-intermediate";
+		};
+		57CF7B7D26D2BAEA007B6676 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 577B214626C7B7A800B82030 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 577B214D26C7B7A800B82030;
+			remoteInfo = "dicoding-intermediate";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		577B214E26C7B7A800B82030 /* dicoding-intermediate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dicoding-intermediate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		577B215126C7B7A800B82030 /* DicodingIntermediateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DicodingIntermediateApp.swift; sourceTree = "<group>"; };
-		577B215326C7B7A800B82030 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		577B215526C7B7AB00B82030 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		577B215826C7B7AB00B82030 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		577B215A26C7B7AB00B82030 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -58,9 +78,7 @@
 		577B218126C7DEAC00B82030 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 		577B218326C7E04D00B82030 /* TypeAlias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeAlias.swift; sourceTree = "<group>"; };
 		577B218726C7E14000B82030 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		577B218A26C7FFA500B82030 /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
 		577B218E26C908FD00B82030 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
-		577B219026C93A7F00B82030 /* TestListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestListView.swift; sourceTree = "<group>"; };
 		577B219226C99A1A00B82030 /* HomeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDetailView.swift; sourceTree = "<group>"; };
 		577B219426C99B8900B82030 /* GameDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDetailModel.swift; sourceTree = "<group>"; };
 		577B219626C9A24000B82030 /* SearchNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchNavigation.swift; sourceTree = "<group>"; };
@@ -72,6 +90,17 @@
 		57CF7B4726CEED90007B6676 /* NoDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoDataView.swift; sourceTree = "<group>"; };
 		57CF7B4926CEEF84007B6676 /* FavoriteDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteDetailView.swift; sourceTree = "<group>"; };
 		57CF7B5126D03EF4007B6676 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		57CF7B5326D186A1007B6676 /* Games-info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Games-info.plist"; sourceTree = "<group>"; };
+		57CF7B5926D26681007B6676 /* dicoding-intermediateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dicoding-intermediateTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57CF7B5B26D26682007B6676 /* dicoding_intermediateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dicoding_intermediateTests.swift; sourceTree = "<group>"; };
+		57CF7B5D26D26682007B6676 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57CF7B6426D26A17007B6676 /* MockService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockService.swift; sourceTree = "<group>"; };
+		57CF7B6D26D279E4007B6676 /* GameDataMock.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = GameDataMock.json; sourceTree = "<group>"; };
+		57CF7B7026D292B3007B6676 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		57CF7B7226D294A7007B6676 /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
+		57CF7B7826D2BAEA007B6676 /* dicoding-intermediateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dicoding-intermediateUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57CF7B7A26D2BAEA007B6676 /* dicoding_intermediateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dicoding_intermediateUITests.swift; sourceTree = "<group>"; };
+		57CF7B7C26D2BAEA007B6676 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		98D4747E558AC377CDE84C53 /* Pods-dicoding-intermediate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dicoding-intermediate.release.xcconfig"; path = "Target Support Files/Pods-dicoding-intermediate/Pods-dicoding-intermediate.release.xcconfig"; sourceTree = "<group>"; };
 		B098C251DC8E97AF37B6F6DC /* Pods-dicoding-intermediate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dicoding-intermediate.debug.xcconfig"; path = "Target Support Files/Pods-dicoding-intermediate/Pods-dicoding-intermediate.debug.xcconfig"; sourceTree = "<group>"; };
 		C931D3F483F55FEB7FD800BA /* Pods_dicoding_intermediate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dicoding_intermediate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,6 +116,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		57CF7B5626D26681007B6676 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57CF7B7526D2BAE9007B6676 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -94,6 +137,8 @@
 			isa = PBXGroup;
 			children = (
 				577B215026C7B7A800B82030 /* dicoding-intermediate */,
+				57CF7B5A26D26682007B6676 /* dicoding-intermediateTests */,
+				57CF7B7926D2BAEA007B6676 /* dicoding-intermediateUITests */,
 				577B214F26C7B7A800B82030 /* Products */,
 				B34142CD22E6515464CE2C1A /* Pods */,
 				D986F0037B3CF74A8E55163F /* Frameworks */,
@@ -104,6 +149,8 @@
 			isa = PBXGroup;
 			children = (
 				577B214E26C7B7A800B82030 /* dicoding-intermediate.app */,
+				57CF7B5926D26681007B6676 /* dicoding-intermediateTests.xctest */,
+				57CF7B7826D2BAEA007B6676 /* dicoding-intermediateUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -118,11 +165,11 @@
 				577B216126C7B7CB00B82030 /* ViewModel */,
 				577B216026C7B7BA00B82030 /* View */,
 				577B215126C7B7A800B82030 /* DicodingIntermediateApp.swift */,
-				577B215326C7B7A800B82030 /* ContentView.swift */,
 				577B215526C7B7AB00B82030 /* Assets.xcassets */,
 				577B215A26C7B7AB00B82030 /* Info.plist */,
 				577B215726C7B7AB00B82030 /* Preview Content */,
 				57CF7B3A26CC46E9007B6676 /* GamesContainer.xcdatamodeld */,
+				57CF7B5326D186A1007B6676 /* Games-info.plist */,
 			);
 			path = "dicoding-intermediate";
 			sourceTree = "<group>";
@@ -142,13 +189,13 @@
 				577B218126C7DEAC00B82030 /* ErrorView.swift */,
 				577B218726C7E14000B82030 /* HomeView.swift */,
 				577B218E26C908FD00B82030 /* TabBarView.swift */,
-				577B219026C93A7F00B82030 /* TestListView.swift */,
 				577B219226C99A1A00B82030 /* HomeDetailView.swift */,
 				577B219626C9A24000B82030 /* SearchNavigation.swift */,
 				57CF7B4126CED7D1007B6676 /* FavoriteView.swift */,
 				57CF7B4726CEED90007B6676 /* NoDataView.swift */,
 				57CF7B4926CEEF84007B6676 /* FavoriteDetailView.swift */,
 				57CF7B5126D03EF4007B6676 /* ProfileView.swift */,
+				57CF7B7226D294A7007B6676 /* EditProfileView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -158,6 +205,7 @@
 			children = (
 				577B217226C7C9B800B82030 /* HomeViewModel.swift */,
 				57CF7B4326CED853007B6676 /* FavoriteViewModel.swift */,
+				57CF7B7026D292B3007B6676 /* ProfileViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -195,10 +243,29 @@
 		577B218926C7FF8F00B82030 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				577B218A26C7FFA500B82030 /* UIColor+Ext.swift */,
 				57CF7B3826CC2DF2007B6676 /* String+Ext.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		57CF7B5A26D26682007B6676 /* dicoding-intermediateTests */ = {
+			isa = PBXGroup;
+			children = (
+				57CF7B5B26D26682007B6676 /* dicoding_intermediateTests.swift */,
+				57CF7B5D26D26682007B6676 /* Info.plist */,
+				57CF7B6426D26A17007B6676 /* MockService.swift */,
+				57CF7B6D26D279E4007B6676 /* GameDataMock.json */,
+			);
+			path = "dicoding-intermediateTests";
+			sourceTree = "<group>";
+		};
+		57CF7B7926D2BAEA007B6676 /* dicoding-intermediateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				57CF7B7A26D2BAEA007B6676 /* dicoding_intermediateUITests.swift */,
+				57CF7B7C26D2BAEA007B6676 /* Info.plist */,
+			);
+			path = "dicoding-intermediateUITests";
 			sourceTree = "<group>";
 		};
 		B34142CD22E6515464CE2C1A /* Pods */ = {
@@ -244,6 +311,42 @@
 			productReference = 577B214E26C7B7A800B82030 /* dicoding-intermediate.app */;
 			productType = "com.apple.product-type.application";
 		};
+		57CF7B5826D26681007B6676 /* dicoding-intermediateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57CF7B6026D26682007B6676 /* Build configuration list for PBXNativeTarget "dicoding-intermediateTests" */;
+			buildPhases = (
+				57CF7B5526D26681007B6676 /* Sources */,
+				57CF7B5626D26681007B6676 /* Frameworks */,
+				57CF7B5726D26681007B6676 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57CF7B5F26D26682007B6676 /* PBXTargetDependency */,
+			);
+			name = "dicoding-intermediateTests";
+			productName = "dicoding-intermediateTests";
+			productReference = 57CF7B5926D26681007B6676 /* dicoding-intermediateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		57CF7B7726D2BAE9007B6676 /* dicoding-intermediateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57CF7B7F26D2BAEA007B6676 /* Build configuration list for PBXNativeTarget "dicoding-intermediateUITests" */;
+			buildPhases = (
+				57CF7B7426D2BAE9007B6676 /* Sources */,
+				57CF7B7526D2BAE9007B6676 /* Frameworks */,
+				57CF7B7626D2BAE9007B6676 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57CF7B7E26D2BAEA007B6676 /* PBXTargetDependency */,
+			);
+			name = "dicoding-intermediateUITests";
+			productName = "dicoding-intermediateUITests";
+			productReference = 57CF7B7826D2BAEA007B6676 /* dicoding-intermediateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -255,6 +358,14 @@
 				TargetAttributes = {
 					577B214D26C7B7A800B82030 = {
 						CreatedOnToolsVersion = 12.5;
+					};
+					57CF7B5826D26681007B6676 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 577B214D26C7B7A800B82030;
+					};
+					57CF7B7726D2BAE9007B6676 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 577B214D26C7B7A800B82030;
 					};
 				};
 			};
@@ -275,6 +386,8 @@
 			projectRoot = "";
 			targets = (
 				577B214D26C7B7A800B82030 /* dicoding-intermediate */,
+				57CF7B5826D26681007B6676 /* dicoding-intermediateTests */,
+				57CF7B7726D2BAE9007B6676 /* dicoding-intermediateUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -284,8 +397,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57CF7B5426D186A1007B6676 /* Games-info.plist in Resources */,
 				577B215926C7B7AB00B82030 /* Preview Assets.xcassets in Resources */,
 				577B215626C7B7AB00B82030 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57CF7B5726D26681007B6676 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57CF7B6E26D279E4007B6676 /* GameDataMock.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57CF7B7626D2BAE9007B6676 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,17 +490,15 @@
 				577B218826C7E14000B82030 /* HomeView.swift in Sources */,
 				577B216A26C7BE6300B82030 /* GameListEndPoint.swift in Sources */,
 				57CF7B4426CED853007B6676 /* FavoriteViewModel.swift in Sources */,
-				577B219126C93A7F00B82030 /* TestListView.swift in Sources */,
 				57CF7B4626CEE40F007B6676 /* CoreDataManager.swift in Sources */,
 				577B219726C9A24100B82030 /* SearchNavigation.swift in Sources */,
-				577B215426C7B7A800B82030 /* ContentView.swift in Sources */,
 				577B219326C99A1B00B82030 /* HomeDetailView.swift in Sources */,
 				577B217126C7C96C00B82030 /* ResultState.swift in Sources */,
 				577B215226C7B7A800B82030 /* DicodingIntermediateApp.swift in Sources */,
-				577B218B26C7FFA500B82030 /* UIColor+Ext.swift in Sources */,
 				577B218426C7E04D00B82030 /* TypeAlias.swift in Sources */,
 				57CF7B3C26CC46E9007B6676 /* GamesContainer.xcdatamodeld in Sources */,
 				57CF7B4A26CEEF84007B6676 /* FavoriteDetailView.swift in Sources */,
+				57CF7B7126D292B3007B6676 /* ProfileViewModel.swift in Sources */,
 				57CF7B4826CEED90007B6676 /* NoDataView.swift in Sources */,
 				577B216E26C7C18400B82030 /* GamesService.swift in Sources */,
 				577B217A26C7D23400B82030 /* GameItemView.swift in Sources */,
@@ -381,11 +508,42 @@
 				577B217326C7C9B800B82030 /* HomeViewModel.swift in Sources */,
 				577B218F26C908FD00B82030 /* TabBarView.swift in Sources */,
 				57CF7B3926CC2DF2007B6676 /* String+Ext.swift in Sources */,
+				57CF7B7326D294A7007B6676 /* EditProfileView.swift in Sources */,
 				577B218226C7DEAC00B82030 /* ErrorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		57CF7B5526D26681007B6676 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57CF7B5C26D26682007B6676 /* dicoding_intermediateTests.swift in Sources */,
+				57CF7B6526D26A17007B6676 /* MockService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57CF7B7426D2BAE9007B6676 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57CF7B7B26D2BAEA007B6676 /* dicoding_intermediateUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57CF7B5F26D26682007B6676 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 577B214D26C7B7A800B82030 /* dicoding-intermediate */;
+			targetProxy = 57CF7B5E26D26682007B6676 /* PBXContainerItemProxy */;
+		};
+		57CF7B7E26D2BAEA007B6676 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 577B214D26C7B7A800B82030 /* dicoding-intermediate */;
+			targetProxy = 57CF7B7D26D2BAEA007B6676 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		577B215B26C7B7AB00B82030 /* Debug */ = {
@@ -548,6 +706,80 @@
 			};
 			name = Release;
 		};
+		57CF7B6126D26682007B6676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "dicoding-intermediateTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.candra.test.dicoding-intermediateTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dicoding-intermediate.app/dicoding-intermediate";
+			};
+			name = Debug;
+		};
+		57CF7B6226D26682007B6676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "dicoding-intermediateTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.candra.test.dicoding-intermediateTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dicoding-intermediate.app/dicoding-intermediate";
+			};
+			name = Release;
+		};
+		57CF7B8026D2BAEA007B6676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "dicoding-intermediateUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.candra.test.dicoding-intermediateUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "dicoding-intermediate";
+			};
+			name = Debug;
+		};
+		57CF7B8126D2BAEA007B6676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "dicoding-intermediateUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.candra.test.dicoding-intermediateUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "dicoding-intermediate";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -565,6 +797,24 @@
 			buildConfigurations = (
 				577B215E26C7B7AB00B82030 /* Debug */,
 				577B215F26C7B7AB00B82030 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57CF7B6026D26682007B6676 /* Build configuration list for PBXNativeTarget "dicoding-intermediateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57CF7B6126D26682007B6676 /* Debug */,
+				57CF7B6226D26682007B6676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57CF7B7F26D2BAEA007B6676 /* Build configuration list for PBXNativeTarget "dicoding-intermediateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57CF7B8026D2BAEA007B6676 /* Debug */,
+				57CF7B8126D2BAEA007B6676 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

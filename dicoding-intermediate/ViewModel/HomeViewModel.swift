@@ -27,6 +27,19 @@ class HomeViewModelImpl: ObservableObject, HomeViewModel {
     private(set) var errorDesc: APIError = .unknown
     @Published var showAlert = false
     
+    private var apiKey: String {
+        get {
+            guard let filePath = Bundle.main.path(forResource: "Games-info", ofType: "plist") else {
+                fatalError("Couldn't find Games-Info plist")
+            }
+            let plist = NSDictionary(contentsOfFile: filePath)
+            guard let value = plist?.object(forKey: "API_KEY") as? String else {
+                fatalError("Couldn't find API_KEY in Games-Info plist")
+            }
+            return value
+        }
+    }
+    
     init(service: GamesService) {
         self.service = service
     }
@@ -34,10 +47,9 @@ class HomeViewModelImpl: ObservableObject, HomeViewModel {
     func getGames(page: Int, pageSize: Int, search: String = "") {
         self.state = .loading
         self.isLoading = true
-        let keyAPI = "dcc6304d8c4b4b61b20a9c2bd0a4f7c7"
         
         let cancellable = service
-            .request(from: .getGames(keyAPI, page, pageSize, search))
+            .request(from: .getGames(apiKey, page, pageSize, search))
             .sink { response in
                 switch response {
                 case .finished:
@@ -60,10 +72,9 @@ class HomeViewModelImpl: ObservableObject, HomeViewModel {
     func getDetailGames(id: Int) {
         self.state = .loading
         self.isLoading = true
-        let keyAPI = "dcc6304d8c4b4b61b20a9c2bd0a4f7c7"
         
         let cancellable = service
-            .requestDetail(from: .getGameDetail(keyAPI, id))
+            .requestDetail(from: .getGameDetail(apiKey, id))
             .sink { response in
                 switch response {
                 case .finished:
@@ -134,7 +145,6 @@ class HomeViewModelImpl: ObservableObject, HomeViewModel {
         let existingGmaeEntity = CoreDataManager.shared.getGameByID(gameId: gameID)
         if existingGmaeEntity != nil {
             CoreDataManager.shared.save()
-
         }
     }
 }
